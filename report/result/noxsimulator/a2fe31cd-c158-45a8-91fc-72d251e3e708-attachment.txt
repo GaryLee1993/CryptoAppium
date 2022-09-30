@@ -1,0 +1,5 @@
+INFO     start_appium:StartAppium.py:15 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:20 执行用例内容:{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '从9日天气列表中获取明天天气', '测试数据': '{}', '备注': '从9日天气列表中获取明天天气', '描述': '从9日天气列表中获取明天天气', '执行前是否清理环境': 'n', '执行后是否清理环境': 'n'}
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS001', '步骤名称': '跳过更新提示', '操作': 'click', '元素名称': 'El_UPGRADE_NOTICE_SKIP', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息None
+DEBUG    operate:KeywordOperatePytest.py:261 该关键字是click_btn

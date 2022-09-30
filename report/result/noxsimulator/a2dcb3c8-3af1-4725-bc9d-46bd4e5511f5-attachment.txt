@@ -1,0 +1,23 @@
+INFO     start_appium:StartAppium.py:15 port 4723 is used!
+INFO     TestKeywords:TestKeywords.py:20 执行用例内容:{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '从9日天气列表中获取明天天气', '测试数据': '{}', '备注': '从9日天气列表中获取明天天气', '描述': '从9日天气列表中获取明天天气', '执行前是否清理环境': 'n', '执行后是否清理环境': 'n'}
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS001', '步骤名称': '点击功能按钮', '操作': 'click', '元素名称': 'El_FUNCTIONMENUE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_FUNCTIONMENUE', '定位类型': 'xpath', '元素信息': '//android.widget.ImageButton[@content-desc="转到上一层级"]', '定位方式': ''}
+DEBUG    operate:KeywordOperatePytest.py:180 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS002', '步骤名称': '下滑', '操作': 'scroll_down', '元素名称': '', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息None
+DEBUG    operate:KeywordOperatePytest.py:261 该关键字是scorll_down
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS003', '步骤名称': '点击最近9天天气', '操作': 'click', '元素名称': 'El_NINE_DAY_WEATHER', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER', '定位类型': 'xpath', '元素信息': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[6]/android.view.ViewGroup/android.widget.TextView', '定位方式': ''}
+DEBUG    operate:KeywordOperatePytest.py:180 该关键字是click_btn
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS004', '步骤名称': '打印气温', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_TEMPERATURE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_TEMPERATURE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/sevenday_forecast_temp', '定位方式': ''}
+DEBUG    operate:KeywordOperatePytest.py:180 该关键字是print_app_content
+INFO     Base_Page:BaseAction.py:36 获取页面内容为：26 - 31°C
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS005', '步骤名称': '打印湿度', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_MOISTURE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_MOISTURE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/sevenday_forecast_rh', '定位方式': ''}
+DEBUG    operate:KeywordOperatePytest.py:180 该关键字是print_app_content
+INFO     Base_Page:BaseAction.py:36 获取页面内容为：70 - 95%
+DEBUG    operate:KeywordOperatePytest.py:153 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS006', '步骤名称': '打印降雨概率', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_RAIN_RATE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+DEBUG    operate:KeywordOperatePytest.py:158 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_RAIN_RATE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/psrText', '定位方式': ''}
+DEBUG    operate:KeywordOperatePytest.py:180 该关键字是print_app_content
+INFO     Base_Page:BaseAction.py:36 获取页面内容为：Medium

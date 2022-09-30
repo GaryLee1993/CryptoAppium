@@ -1,0 +1,25 @@
+2022-09-30 16:23:25,752 - D:\Cyrpto_appium\utils\LogUtil.py - DEBUG - 获取TestCases表测试个数1，数据内容[{'序号': 1.0, '描述': '从9日天气列表中获取明天天气', 'TC_ID': 'TC_GET_WEATHER_TOMORROW', '是否运行': 'y', '备注': '从9日天气列表中获取明天天气', '执行前是否清理环境': 'n', '执行后是否清理环境': 'n'}]
+2022-09-30 16:23:25,755 - D:\Cyrpto_appium\utils\LogUtil.py - DEBUG - 获取CaseData运行测试个数1，数据内容[{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '从9日天气列表中获取明天天气', '测试数据': '{}', '备注': '从9日天气列表中获取明天天气', '描述': '从9日天气列表中获取明天天气', '执行前是否清理环境': 'n', '执行后是否清理环境': 'n'}]
+2022-09-30 16:23:25,759 - start_appium - INFO - port 4723 is used!
+2022-09-30 16:23:47,230 - TestKeywords - INFO - 执行用例内容:{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'CASE_ID': 'Case_001', '是否运行': 'y', '用例名称': '从9日天气列表中获取明天天气', '测试数据': '{}', '备注': '从9日天气列表中获取明天天气', '描述': '从9日天气列表中获取明天天气', '执行前是否清理环境': 'n', '执行后是否清理环境': 'n'}
+2022-09-30 16:23:47,233 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS001', '步骤名称': '点击功能按钮', '操作': 'click', '元素名称': 'El_FUNCTIONMENUE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:47,236 - operate - DEBUG - 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_FUNCTIONMENUE', '定位类型': 'xpath', '元素信息': '//android.widget.ImageButton[@content-desc="转到上一层级"]', '定位方式': ''}
+2022-09-30 16:23:47,238 - operate - DEBUG - 该关键字是click_btn
+2022-09-30 16:23:49,283 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS002', '步骤名称': '下滑', '操作': 'scroll_down', '元素名称': '', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:49,284 - operate - DEBUG - 元素信息None
+2022-09-30 16:23:49,285 - operate - DEBUG - 该关键字是scorll_down
+2022-09-30 16:23:53,594 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS003', '步骤名称': '点击最近9天天气', '操作': 'click', '元素名称': 'El_NINE_DAY_WEATHER', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:53,595 - operate - DEBUG - 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER', '定位类型': 'xpath', '元素信息': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[6]/android.view.ViewGroup/android.widget.TextView', '定位方式': ''}
+2022-09-30 16:23:53,595 - operate - DEBUG - 该关键字是click_btn
+2022-09-30 16:23:55,692 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS004', '步骤名称': '打印气温', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_TEMPERATURE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:55,693 - operate - DEBUG - 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_TEMPERATURE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/sevenday_forecast_temp', '定位方式': ''}
+2022-09-30 16:23:55,693 - operate - DEBUG - 该关键字是print_app_content
+2022-09-30 16:23:55,727 - Base_Page - INFO - 获取页面内容为：26 - 31°C
+2022-09-30 16:23:55,727 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS005', '步骤名称': '打印湿度', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_MOISTURE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:55,727 - operate - DEBUG - 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_MOISTURE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/sevenday_forecast_rh', '定位方式': ''}
+2022-09-30 16:23:55,728 - operate - DEBUG - 该关键字是print_app_content
+2022-09-30 16:23:55,763 - Base_Page - INFO - 获取页面内容为：70 - 95%
+2022-09-30 16:23:55,763 - operate - DEBUG - 执行步骤{'TC_ID': 'TC_GET_WEATHER_TOMORROW', 'ave': 'TS006', '步骤名称': '打印降雨概率', '操作': 'print_app_content', '元素名称': 'El_NINE_DAY_WEATHER_RAIN_RATE', '数据': '', 'Web端平台': '', '步骤预期结果': '', '元素定位索引': ''}
+2022-09-30 16:23:55,763 - operate - DEBUG - 元素信息{'TC_ID': 'TC_GET_WEATHER_TOMORROW', '元素名称': 'El_NINE_DAY_WEATHER_RAIN_RATE', '定位类型': 'id', '元素信息': 'hko.MyObservatory_v1_0:id/psrText', '定位方式': ''}
+2022-09-30 16:23:55,764 - operate - DEBUG - 该关键字是print_app_content
+2022-09-30 16:23:55,801 - Base_Page - INFO - 获取页面内容为：Medium

@@ -1,0 +1,7 @@
+allure_python_commons==2.6.4
+base==1.0.4
+conf==0.4.1
+config==0.5.1
+data==0.4
+selenium==4.5.0
+utils==1.0.1

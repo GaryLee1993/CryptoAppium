@@ -1,0 +1,8 @@
+
+
+
+EMAIL:
+  smtpserver: "smtp.163.com"
+  username: "demon119@163.com"
+  password: "a12345678"
+  receiver: "demon119@163.com"
